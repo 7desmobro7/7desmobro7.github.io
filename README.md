@@ -1,2 +1,2 @@
 # 7desmobro7.github.io
-Welcome to my portfolio!
+IT portfolio showcasing Windows Server, networking, cybersecurity, and scripting projects.
