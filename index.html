@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: #1f2937;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 25px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #111827;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 8px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    .project h3 {
+      color: #2563eb;
+      margin-bottom: 6px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .skill-box {
+      background: #eef2ff;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .contact a {
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111827;
+      color: white;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>IT and Cybersecurity Portfolio | Windows Server | Networking | Linux | PowerShell | Python | Technical Support</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Welcome to my portfolio. This site highlights my technical projects, lab work, and hands-on experience with IT support, networking, Windows Server, Linux, cybersecurity, scripting, and documentation. My goal is to show practical skills through real projects, screenshots, diagrams, write-ups, and technical problem solving.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <div class="skill-box">
+          <h3>Systems</h3>
+          <ul>
+            <li>Windows Server</li>
+            <li>Active Directory</li>
+            <li>DNS and DHCP</li>
+            <li>Group Policy</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>Networking</h3>
+          <ul>
+            <li>IP Addressing</li>
+            <li>Subnets</li>
+            <li>Routing Basics</li>
+            <li>Network Diagrams</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>Cybersecurity</h3>
+          <ul>
+            <li>Linux Labs</li>
+            <li>Enumeration</li>
+            <li>Log Review</li>
+            <li>Vulnerability Research</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>Scripting</h3>
+          <ul>
+            <li>PowerShell</li>
+            <li>Python</li>
+            <li>Bash</li>
+            <li>Automation Basics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Windows Server 2022 Infrastructure Project</h3>
+        <p>
+          Designed and documented a Windows Server environment using Active Directory, DNS, DHCP, Group Policy, organizational units, users, groups, and security settings.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Visio Network Diagram</h3>
+        <p>
+          Created a professional network diagram showing server roles, network devices, IP addressing, security devices, and logical network layout.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Cybersecurity and Ethical Hacking Labs</h3>
+        <p>
+          Completed lab work involving Linux commands, enumeration, scanning, password auditing, vulnerability review, documentation, and report writing.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Python and PowerShell Scripts</h3>
+        <p>
+          Built scripts for basic automation, system information gathering, file handling, and command-line practice.
+        </p>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>
+        Add a PDF copy of your resume to this repository later, then link it here.
+      </p>
+      <p>
+        Example: <a href="resume.pdf">Download My Resume</a>
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
+      </p>
+      <p>
+        GitHub: <a href="https://github.com/yourusername">https://github.com/yourusername</a>
+      </p>
+      <p>
+        LinkedIn: <a href="https://linkedin.com/in/yourprofile">https://linkedin.com/in/yourprofile</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
